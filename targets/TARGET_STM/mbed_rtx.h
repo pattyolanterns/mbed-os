@@ -97,6 +97,7 @@
        defined(TARGET_STM32F407VE) ||\
        defined(TARGET_STM32F407ZG) ||\
        defined(TARGET_STM32F411RE) ||\
+       defined(TARGET_STM32F411VE) ||\
        defined(TARGET_STM32F446RE) ||\
        defined(TARGET_STM32F446VE) ||\
        defined(TARGET_STM32F446ZE) ||\
