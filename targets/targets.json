@@ -9909,7 +9909,7 @@
         "release_versions": ["2", "5"],
         "device_name": "STM32F411VE",
         "bootloader_supported": false
-    }
+    },
     "__build_tools_metadata__": {
         "version": "1",
         "public": false
