@@ -187,13 +187,16 @@ typedef enum {
 #ifdef MBED_CONF_TARGET_STDIO_UART_TX
     STDIO_UART_TX = MBED_CONF_TARGET_STDIO_UART_TX,
 #else
-    STDIO_UART_TX = PA_2,
+    STDIO_UART_TX = PD_5,
 #endif
 #ifdef MBED_CONF_TARGET_STDIO_UART_RX
     STDIO_UART_RX = MBED_CONF_TARGET_STDIO_UART_RX,
 #else
-    STDIO_UART_RX = PA_3,
+    STDIO_UART_RX = PD_6,
 #endif
+
+    // ^ We need to manually change these two serial pins, not sure why they couldn't just
+    // let us use the variables from peripheral pins/names
 
     // Generic signals namings
     LED1        = PA_5,
